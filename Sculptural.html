@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<title></title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.w3-sidebar a {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+</style>
+<body class="w3-content" style="max-width:1200px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+    <img src="images/logoweb.png" style="width:60%">
+    
+  </div>
+  <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
+       <a href="index.html" class="w3-bar-item w3-button">Home</a>
+       
+   <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn">
+    Artwork <i class="fa fa-caret-down"></i>
+    </a>
+    <div id="demoAcc" class="w3-bar-block w3-hide w3-padding-large w3-medium dropdown">
+     
+    <div  id="demoAcc" class="w3-medium  w3-bar-block dropdown">
+  <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" >
+   Screenbased <i class="fa fa-caret-down"></i>
+    </a>
+  <span class="caret"></span>
+  <ul class="dropdown-menu">
+   <a href="videoBased.html" class="w3-bar-item w3-button" >Videos</a>
+      <a href="CodeBased.html" class="w3-bar-item w3-button" >Code Baised</a>
+  </ul>
+</div>   
+     
+ <a href="Robotic.html" class="w3-bar-item w3-button" >Robotic</a>
+      <a href="pictoral.html" class="w3-bar-item w3-button" >Pictoral</a>
+      <a href="sculptural.html" class="w3-bar-item w3-button" >Sculptural</a>
+    </div>
+     
+    <a href="Commissions.html" class="w3-bar-item w3-button" >Commissions</a>
+    <a  href="artistStatement.html" class="w3-bar-item w3-button">Artist Statement</a>
+     <a href="artistBio.html" class="w3-bar-item w3-button" >Artist Bio</a>
+    <a href="resume.html" class="w3-bar-item w3-button">Resume</a>
+    <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+    
+     
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class=" w3-container w3-display-container w3-bar w3-top w3-hide-large w3-padding-16">
+   <img src="images/logoweb.png" style="width:15%">
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:250px">
+
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  
+  <!-- Top header -->
+  <header class="w3-container w3-xlarge">
+   
+     <h3 class="w3-wide"><b>ARANTXASTUDIO.COM</b></h3>
+     <h5 class="w3-wide"><b>ARANTXA ASTUDILLO - artist</b></h5>
+  </header>
+  
+  
+
+  <!-- Image header -->
+
+  <!-- Artwork -->
+   <br><br><h3><i>Sculptural</i></h3>
+  
+      
+      <!-- New Piece--> 
+     <div class="w3-row-padding w3-light-grey">
+      <div class="w3-col s4">
+        <h4><i>Rock and Roll</i></h4>
+        
+ <p>Arantxa Astudillo<br>
+Laser cut wood<br>
+2019  <br><br>
+I designed 11 pieces that are modularly "fit" to one another. The designs consists of four characters: a "hammerhead shark", a "seahorse", an "angelfish", and a "blobfish". I also designed to ways which the pieces can move, one my rocking, and another by rolling. </p>
+      </div>
+      <div class="w3-col s4">
+      <center>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+<div class="w3-content w3-display-container">
+  <center>
+  <img class="2mySlides" src="images/Modular/ModularRocking.png"  style="width:150%">
+  <img class="2mySlides" src="images/Modular/ModularRolling.png"  style="width:150%">
+  <img class="2mySlides" src="images/Modular/ModularPieces1.png"  style="width:150%">
+  <img class="2mySlides" src="images/Modular/ModularPieces2.png"  style="width:150%">
+  <img class="2mySlides" src="images/Modular/ModularAi.png"  style="width:150%">
+</center>
+  <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-display-right" w3-left-align onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("2mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+          </body>          
+      </center> 
+     </div>
+    </div>
+   <br><br>
+      
+      
+       <!-- New Piece--> 
+     <div class="w3-row-padding w3-light-grey">
+      <div class="w3-col s4">
+        <h4><i>Lavalounertesorisous</i></h4>
+        
+ <p>Arantxa Astudillo<br>
+3d print and homegrown crystals<br>
+1"X4"<br>
+2019  <br><br>
+   <p>This miniature sculpture is a mythological creature of my own invention. It has the body of a snake, the tail of a piranha,and no head. It lives deep inside the Earth and when it dies, it crystalizes.</p>
+      </div>
+      <div class="w3-col s4">
+      <center><a href="images/lava1.JPG" > <img src="images/lava1.JPG" class="u-full-width" width="150%"/>   </a></center> 
+     </div>
+    </div>
+    <br><br>
+  
+    
+     <!-- New Piece--> 
+     <div class="w3-row-padding w3-light-grey">
+      <div class="w3-col s4">
+        <h4><i>PINacle of Pain</i></h4>
+        
+ <p>Arantxa Astudillo<br>
+Hat and pins<br>
+2018  <br><br>
+A hat is made to protect for the sun. Yet this hat will do more harm than protection. </p>
+      </div>
+      <div class="w3-col s4">
+      <center>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+<div class="w3-content w3-display-container">
+  <center>
+  <img class="mySlides" src="images/sunhat/sunhat6.png"  style="width:150%">
+  <img class="mySlides" src="images/sunhat/sunhat7.png"  style="width:150%">
+  <img class="mySlides" src="images/sunhat/sunhat1.jpg"  style="width:150%">
+  <img class="mySlides" src="images/sunhat/sunhat2.jpg"  style="width:150%">
+  <img class="mySlides" src="images/sunhat/sunhat3.jpg"  style="width:150%">
+  <img class="mySlides" src="images/sunhat/sunhat4.jpg"  style="width:150%">
+  <img class="mySlides" src="images/sunhat/sunhat5.jpg"  style="width:150%">
+</center>
+  <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-display-right" w3-left-align onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+          </body>          
+      </center> 
+     </div>
+    </div>
+   <br><br>
+    
+    <!-- New Piece--> 
+     <div class="w3-row-padding w3-light-grey">
+      <div class="w3-col s4">
+        <h4><i>Light of Life</i></h4>
+        
+ <p>Arantxa Astudillo<br>
+Welded steel rods<br>
+24X24''<br>
+2017  <br><br>
+   <p>I was inspired by the beauty of the changes the female body experiences during and after a pregnancy. Each individual wire is the silhouette of the breasts and stomach of a woman; the wires change shape, like the body of the woman.</p>
+      </div>
+      <div class="w3-col s4">
+      <center><a href="images/wire.jpg" > <img src="images/wire.jpg" class="u-full-width" width="150%"/>   </a></center> 
+     </div>
+    </div>
+    <br><br>
+    
+    <!-- New Piece--> 
+     <div class="w3-row-padding w3-light-grey">
+      <div class="w3-col s4">
+        <h4><i>Self Care</i></h4>
+        
+ <p>Arantxa Astudillo<br>
+Wood<br>
+12X24''<br>
+2017  <br><br>
+   <p>Sometimes you must watch your own back, and take care of yourself.</p>
+      </div>
+      <div class="w3-col s4">
+      <center><a href="images/woodtail.jpg" > <img src="images/woodtail.jpg" class="u-full-width" width="150%"/>   </a></center> 
+     </div>
+    </div>
+    <br><br>
+    
+       <!-- New Piece--> 
+     <div class="w3-row-padding w3-light-grey">
+      <div class="w3-col s4">
+        <h4><i>Elephant Toy</i></h4>
+        
+ <p>Arantxa Astudillo<br>
+Wood<br>
+12X24''<br>
+2017  <br><br>
+   <p>This sculpture can be taken apart, piece by piece. It can be used as a toy; elephants can be used as a tool and they too can be torn apart, mentally and physically. I have seen and touched elephants in Thailand and I could see the pain that they have endured in their past, yet, there they were, trusting humans once again.</p>
+      </div>
+      <div class="w3-col s4">
+      <center><a href="images/woodele.jpg" > <img src="images/woodele.jpg" class="u-full-width" width="150%"/>   </a></center> 
+     </div>
+    </div>
+    <br><br>
+    
+
+ <!-- Footer -->
+  <footer class="w3-padding-64 w3-white w3-small w3-center" id="footer">
+    <div class="w3-row-padding">
+      <div class="w3-rest w3">
+        <h4>Contact</h4>
+        <p>Questions for the artist? Shoot.</p>
+        <form action="/action_page.php" target="_blank">
+          <p><input class="w3-input w3-border" type="text" placeholder="Name" name="Name" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Email" name="Email" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Subject" name="Subject" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Message" name="Message" required></p>
+          <button type="submit" class="w3-button w3-block w3-black">Send</button>
+        </form>
+      </div>
+
+
+    </div>
+  </footer>
+  <!-- End page content -->
+</div>
+
+<script>
+// Accordion 
+function myAccFunc() {
+  var x = document.getElementById("demoAcc");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// Click on the "Jeans" link on page load to open the accordion for demo purposes
+document.getElementById("myBtn").click();
+
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
